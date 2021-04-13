@@ -1,0 +1,75 @@
+<resources>
+    <string name="facebook_app_id">560703354424972</string>
+    <string name="fb_login_protocol_scheme">fb560703354424972</string>
+    <string name="name">name</string>
+    <string name="id">id</string>
+    <string name="email">email</string>
+    <string name="link">link</string>
+    <string name="fields" translatable="false">fields</string>
+    <string name="fields_name">id,name,link,email</string>
+    <string name="data">data</string>
+    <string name="app_name">Allder</string>
+    <string name="Email">Email</string>
+    <string name="map_key">AIzaSyCXfwKyBx0gKZKqqbqezIQzcylFHVluPA0</string>
+    <string name="txt_fname_error">Please Enter First name!</string>
+    <string name="txt_lname_error">Please Enter Last name!</string>
+    <string name="firstname">First name</string>
+    <string name="lastname">Last name</string>
+    <string name="referral_code">Referral code</string>
+    <string name="Location">Location</string>
+    <string name="login">Login</string>
+    <string name="reg_load">Registering...</string>
+    <string name="login_with">Login With</string>
+    <string name="passworld">Password</string>
+    <string name="Gender">Geder</string>
+    <string name="sign_in_fb">Sign in with facebook</string>
+    <string name="sign_in_gg">Sign in with google</string>
+    <string name="forgot_pasworld">Forgot Password</string>
+    <string name="consumer_login">Consumer login</string>
+    <string name="food_stall_owner">Food Merchant login</string>
+    <string name="registered">registered</string>
+    <string name="registered1">Don\'t have an account yet?</string>
+    <string name="sign_up">Sign up</string>
+    <string name="Save">Save</string>
+    <string name="txt_slct_option">Choose Picture</string>
+    <string name="txt_gellery">Gallery</string>
+    <string name="txt_cameray">Camera</string>
+    <string name="txt_img_error">unable to select image!</string>
+    <string name="update_success_text">Profile Updated Successfully</string>
+    <string name="txt_out_of_memory">Run out of memory please colse the other background apps and try again!</string>
+    <string name="male">male</string>
+    <string name="updating_pro_load">Updating profile...</string>
+    <string name="female">female</string>
+    <string name="editprofile">Edit Profile</string>
+    <string name="toconsumer">Switch to food merchant</string>
+    <string name="toprovider">Switch to Consumer</string>
+    <string name="send">Send</string>
+    <string name="send_back_otp">Not received your Otp?</string>
+    <string name="resend">Resend</string>
+    <string name="txt_otp_error">Please Enter OTP!</string>
+    <string name="txt_old_pasword_error">Please Enter OTP!</string>
+    <string name="validate">validate</string>
+    <string name="sen_otp">Please enter your phone number, then we will send to you an OTP code</string>
+    <string name="comfirm_otp">Please enter your verify code</string>
+    <string name="Otp_phone_number">You will receive an OTP code, please check your phone message!</string>
+    <string name="txt_otp_wrong">Wrong OTP code, please enter valid OTP code!</string>
+    <string name="txt_phone_error">Please enter your phone number!</string>
+
+    <string name="sign_in">Sign in</string>
+    <string name="Forgot_Pasworld">Forgot Password</string>
+    <string name="txt_email_error">Please Enter Email ID!</string>
+    <string name="txt_signin">Signing in...</string>
+    <string name="txt_pass_error">Please Enter Password!</string>
+    <string name="txt_network_not_available">No network connection.Please check your internet</string>
+    <string name="title_activity_my_favorite">MyFavoriteActivity</string>
+    <string name="title_activity_my_promo_code">MyPromoCodeActivity</string>
+    <string name="title_activity_payment">PaymentActivity</string>
+    <string name="title_activity_wallet">WalletActivity</string>
+    <string name="title_activity_order">OrderActivity</string>
+    <string name="title_activity_invite_friends">InviteFriendsActivity</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>

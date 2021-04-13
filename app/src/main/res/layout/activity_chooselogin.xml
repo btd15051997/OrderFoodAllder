@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/bgwelcome"
+    tools:context=".Activity.ChooseloginActivity">
+    <ImageView
+        android:layout_gravity="center"
+        android:src="@drawable/ic_logoallder"
+        android:layout_marginTop="@dimen/_50sdp"
+        android:layout_width="@dimen/_200sdp"
+        android:layout_height="@dimen/_200sdp" />
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <Button
+        android:id="@+id/consumerlogin"
+        android:background="@drawable/bgbutton"
+        android:layout_marginHorizontal="@dimen/_20sdp"
+        android:layout_width="match_parent"
+        android:text="@string/consumer_login"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/providerloin"
+        android:text="@string/food_stall_owner"
+        android:layout_marginTop="@dimen/_30ssp"
+        android:background="@drawable/bgbutton"
+        android:layout_marginHorizontal="@dimen/_20sdp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+   >
+<ImageView
+    android:id="@+id/qr"
+    android:layout_centerInParent="true"
+    android:src="@drawable/netsqpay"
+    android:layout_width="300dp"
+    android:layout_height="300dp" />
+    <TextView
+        android:layout_below="@+id/qr"
+        android:text="Scan to Pay"
+        android:textColor="#f20"
+        android:gravity="center_horizontal"
+        android:textSize="@dimen/_20sdp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+<ImageView
+    android:layout_centerInParent="true"
+    android:layout_width="50dp"
+    android:layout_height="50dp"
+    android:src="@drawable/nets_logo"/>
+</RelativeLayout>

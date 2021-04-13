@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/bgwelcome"
+    tools:context=".Activity.SettingsActivity">
+    <Button
+        android:id="@+id/btneditprofile"
+        android:layout_margin="@dimen/_10sdp"
+        android:background="@drawable/bgbutton"
+        android:text="Edit Profile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/btnchangePassword"
+        android:layout_margin="@dimen/_10sdp"
+        android:background="@drawable/bgbutton"
+        android:text="Change Password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/btnlogout"
+        android:layout_margin="@dimen/_10sdp"
+        android:background="@drawable/bgbutton"
+        android:text="Log out"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

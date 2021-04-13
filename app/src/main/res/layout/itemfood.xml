@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/line_food">
+
+    <LinearLayout
+        android:id="@+id/layout1"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_80sdp"
+        android:background="@color/black"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:visibility="gone">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/sniglet"
+            android:text="List of foods"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_30sdp" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:background="@drawable/line_food"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/layout1"
+        android:layout_marginTop="-3dp"
+        android:padding="@dimen/_5sdp">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/image_food"
+            android:layout_width="@dimen/_80sdp"
+            android:layout_height="@dimen/_80sdp"
+            android:layout_gravity="center"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_avata" />
+<LinearLayout
+    android:id="@+id/line6"
+    android:layout_toRightOf="@+id/image_food"
+    android:weightSum="1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/txtnamefood"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/line6"
+        android:layout_marginLeft="@dimen/_10ssp"
+        android:layout_weight="0.7"
+        android:ellipsize="end"
+        android:fontFamily="@font/arvo"
+        android:maxLines="1"
+        android:text="Mì "
+        android:textColor="@color/textcolor"
+        android:textSize="@dimen/_20ssp" />
+
+        <TextView
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:id="@+id/txtprice"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="@dimen/_10ssp"
+            android:text="20"
+            android:layout_weight="0.3"
+            android:textColor="@color/textcolor"
+            android:textSize="@dimen/_20ssp" />
+</LinearLayout>
+        <TextView
+            android:id="@+id/txtaddress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/line6"
+            android:layout_marginLeft="@dimen/_10ssp"
+            android:layout_marginTop="@dimen/_5ssp"
+            android:layout_toRightOf="@+id/image_food"
+            android:fontFamily="@font/sniglet"
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:text="41/11 Văn Chung"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_15ssp" />
+
+        <TextView
+            android:id="@+id/txtnamestore"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtaddress"
+            android:layout_marginLeft="@dimen/_10ssp"
+            android:layout_marginTop="@dimen/_5ssp"
+            android:layout_toRightOf="@+id/image_food"
+            android:text="Bakery"
+            android:visibility="gone"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_15ssp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtaddress"
+            android:layout_marginLeft="@dimen/_50ssp"
+            android:layout_marginTop="@dimen/_5ssp"
+            android:layout_toRightOf="@+id/txtnamestore"
+            android:orientation="horizontal"
+            android:layout_marginBottom="@dimen/_10sdp"
+            android:visibility="visible">
+
+            <ImageView
+                android:layout_width="@dimen/_20sdp"
+                android:layout_height="@dimen/_20sdp"
+                android:layout_gravity="center_vertical"
+                app:srcCompat="@drawable/ic_comment_a" />
+
+            <TextView
+                android:id="@+id/txtcomment"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_3sdp"
+                android:text="20"
+                android:textColor="@color/textcolor"
+                android:textSize="@dimen/_18sdp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="@dimen/_20sdp"
+                android:layout_height="@dimen/_20sdp"
+                android:layout_marginLeft="@dimen/_10ssp"
+                app:srcCompat="@drawable/ic_like_a" />
+
+            <TextView
+                android:id="@+id/txtlike"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_3sdp"
+                android:text="20"
+                android:textColor="@color/textcolor"
+                android:textSize="@dimen/_18sdp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtnamestore"
+            android:layout_toRightOf="@+id/image_food"
+            android:orientation="horizontal"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/oder"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="@dimen/_10ssp"
+                android:text="Order"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_15ssp" />
+
+            <ImageButton
+                android:id="@+id/btnoder"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="@dimen/_50ssp"
+                android:background="@android:color/transparent"
+                android:src="@drawable/ic_check_circle" />
+
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:elevation="@dimen/_10ssp"
+                app:cardCornerRadius="@dimen/_10ssp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/_10ssp">
+
+                    <ImageButton
+                        android:id="@+id/btnminusorder"
+                        android:layout_width="@dimen/_20ssp"
+                        android:layout_height="@dimen/_20ssp"
+                        android:background="@android:color/transparent"
+                        android:src="@drawable/ic_action_minus" />
+
+                    <TextView
+                        android:id="@+id/txtnumberorder"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginHorizontal="@dimen/_10sdp"
+                        android:text="1" />
+
+                    <ImageButton
+                        android:id="@+id/imgaddorder"
+                        android:layout_width="@dimen/_20ssp"
+                        android:layout_height="@dimen/_20ssp"
+                        android:background="@android:color/transparent"
+                        app:srcCompat="@drawable/ic_add" />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

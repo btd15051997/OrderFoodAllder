@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_marginTop="@dimen/_10sdp"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:orientation="horizontal">
+    <ImageView
+        android:id="@+id/imgicon"
+        android:layout_width="@dimen/_60ssp"
+        android:layout_height="@dimen/_60ssp"
+        android:background="@drawable/custum_item_notification"
+        android:scaleType="center"
+        android:src="@drawable/ic_newmenu" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="@dimen/_5sdp"
+        android:background="@drawable/custum_item1_notification"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/_20ssp">
+
+        <TextView
+            android:id="@+id/txttitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="New Menu Update"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:layout_marginVertical="@dimen/_3sdp"
+            android:id="@+id/txtnotification"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="dsds"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/txtdate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="10:08"
+            android:textColor="@color/textcolor" />
+    </LinearLayout>
+</LinearLayout>

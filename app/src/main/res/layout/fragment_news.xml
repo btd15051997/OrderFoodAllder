@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.SwipeRefreshLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/refresh_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".fragment.ComingOrderProviderFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/card"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="@dimen/_5sdp"
+            android:background="@drawable/rectangular_line">
+
+            <TextView
+                android:id="@+id/txtdate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/_2sdp"
+                android:text="10/1/1999"
+                android:textColor="@color/white" />
+        </LinearLayout>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_300sdp"
+            android:layout_below="@+id/card"
+            android:layout_marginHorizontal="@dimen/_10sdp"
+            android:background="@color/light_black"
+            android:padding="@dimen/_10sdp"
+            app:cardCornerRadius="@dimen/_10ssp">
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/order_no_tapprove"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/light_black"></android.support.v7.widget.RecyclerView>
+        </android.support.v7.widget.CardView>
+    </RelativeLayout>
+</android.support.v4.widget.SwipeRefreshLayout>

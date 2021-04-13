@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" addBOMForNewFiles="with BOM under Windows, with no BOM otherwise">
+    <file url="file://$PROJECT_DIR$/app/src/main/java/company/com/allder1/Activity/Quiz.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/company/com/allder1/miniGame/QuizDbHelper.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/company/com/allder1/model/Question.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/company/com/allder1/utils/QuizContract.java" charset="UTF-8" />
+  </component>
+</project>

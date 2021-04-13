@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#1e263b</color>
+    <color name="colorPrimaryDark">#1e263b</color>
+    <color name="colorAccent">#2196F3</color>
+    <color name="light_black">#303030</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="bgtoobar">#d6efd2</color>
+    <color name="bgwelcome">#000000</color>
+    <color name="bg">#36425a</color>
+    <color name="bgtablayout">#d6efd2</color>
+    <color name="textcolor">#00ffef</color>
+</resources>

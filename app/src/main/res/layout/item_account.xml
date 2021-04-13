@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:background="@drawable/custom_account"
+    android:paddingLeft="@dimen/_10sdp">
+<ImageView
+    android:id="@+id/imgicon"
+    android:layout_width="25dp"
+    android:layout_height="25dp"
+    android:layout_marginRight="@dimen/_5sdp"
+    android:src="@drawable/ic_search"/>
+    <Button
+        android:background="@android:color/transparent"
+        android:id="@+id/btn_item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:fontFamily="@font/sniglet"
+        android:text="Login"
+        android:textAlignment="textStart" />
+</LinearLayout>

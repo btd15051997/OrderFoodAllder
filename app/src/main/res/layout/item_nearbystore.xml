@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/_1sdp"
+    android:layout_marginTop="@dimen/_1ssp">
+    <ImageView
+        android:id="@+id/imgcover_picture"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_142sdp"
+        android:scaleType="fitXY"
+        android:src="@drawable/no_image" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imgcover_picture"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <TextView
+            android:id="@+id/txtnamestore"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_10ssp"
+            android:layout_weight="1.5"
+            android:singleLine="true"
+            android:text="Món Quê "
+            android:textColor="@color/white"
+            android:textSize="@dimen/_15sdp" />
+
+        <TextView
+            android:id="@+id/txtdistance"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_10ssp"
+            android:layout_weight="0.5"
+            android:gravity="right"
+            android:paddingRight="@dimen/_10ssp"
+            android:singleLine="true"
+            android:text="sarfsdasdasdasdkm"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_15sdp" />
+    </LinearLayout>
+</RelativeLayout>

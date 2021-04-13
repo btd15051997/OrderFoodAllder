@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:paddingTop="@dimen/_3sdp"
+    android:orientation="horizontal"
+    >
+    <ImageButton
+        android:id="@+id/imgBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="@dimen/_5sdp"
+        android:background="@android:color/transparent"
+        app:srcCompat="@drawable/ic_arrow_back_black_24dp" />
+    <AutoCompleteTextView
+        android:id="@+id/et_destination_address"
+        android:layout_width="@dimen/_200sdp"
+        android:layout_height="?attr/actionBarSize"
+        android:layout_marginRight="@dimen/_5sdp"
+        android:layout_toRightOf="@+id/imgBack"
+        android:background="@drawable/bgsearch"
+        android:editable="false"
+        android:hint="Search"
+        android:imeOptions="actionSearch"
+        android:inputType="text"
+        android:singleLine="true"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black" />
+
+    <Button
+        android:id="@+id/btnsave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/et_destination_address"
+        android:background="@drawable/bgbutton"
+        android:text="SEVE" />
+</RelativeLayout>

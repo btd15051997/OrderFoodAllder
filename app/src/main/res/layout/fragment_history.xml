@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <RelativeLayout
+        android:visibility="visible"
+        android:id="@+id/layouttoolbar"
+        android:background="@color/light_black"
+        android:layout_width="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_height="wrap_content">
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbarhistory"
+            android:visibility="visible"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bgtoolbarhome"
+            app:layout_collapseMode="pin"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_below="@+id/layouttoolbar"
+        android:id="@+id/rellayouttopbar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+        <android.support.design.widget.AppBarLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <android.support.design.widget.TabLayout
+                android:id="@+id/tabs"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/light_black"
+                app:tabIndicatorColor="@color/white"
+                app:tabTextColor="@color/white"></android.support.design.widget.TabLayout>
+
+        </android.support.design.widget.AppBarLayout>
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/rellayoutMiddle"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/rellayouttopbar">
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"></android.support.v4.view.ViewPager>
+    </RelativeLayout>
+</RelativeLayout>
